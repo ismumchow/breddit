@@ -1,4 +1,4 @@
-###Breddit
+#Breddit
 Breddit is a Reddit clone project built using Next.js 13.0, React, TypeScript, Tailwind CSS, and Prisma ORM. It aims to provide a platform for users to create communities, share posts, engage in discussions, and vote on content.
 
 #Features
