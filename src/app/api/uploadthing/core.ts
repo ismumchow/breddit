@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { getToken } from 'next-auth/jwt'
 import { createUploadthing, type FileRouter } from 'uploadthing/next'
 
