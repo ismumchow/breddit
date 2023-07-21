@@ -15,7 +15,7 @@ const SignUp = () => {
       </div>
        <UserAuthForm  /> 
       <p className='px-8 text-center text-sm text-muted-foreground'>
-        Already a Bredditor ?{' '}
+        Already a Bredditor ?
         <Link
           href='/sign-in'
           className='hover:text-zinc-800 text-sm underline underline-offset-4'>
