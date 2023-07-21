@@ -1,5 +1,6 @@
 import CloseModal from "@/components/CloseModal";
 import SignUp from "@/components/SignUp";
+
 import { FC } from "react";
 
 const page: FC = () => {
@@ -10,7 +11,6 @@ const page: FC = () => {
           <div className="absolute top-4 right-4">
             <CloseModal />
           </div>
-
           <SignUp />
         </div>
       </div>
