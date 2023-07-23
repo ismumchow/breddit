@@ -65,10 +65,7 @@ const PostFeed: FC<PostFeedProps> = ({ initialPosts, subredditName }) => {
           0
         );
 
-        const currentVote = post.votes.find(
-          (vote: { userId: string | undefined }) =>
-            vote.userId === session?.user.id
-        );
+        const currentVote = post.votes.find((vote: { userId: string | undefined }) => vote.userId === session?.user.id);
 
         if (index === posts.length - 1) {
           // Add a ref to the last post in the list
